@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish's Chat World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="welcome-container" id="welcome-container">
+        <h1>Welcome To The Manish World</h1>
+        <input type="password" id="password-input" placeholder="Enter password">
+        <button id="login-button">Enter</button>
+        <p id="error-message" class="hidden">Kisi ki privacy mat todo.</p>
+    </div>
+    <div class="chat-container hidden" id="chat-container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Global Chat</h2>
+                <button id="theme-toggle">Switch Theme</button>
+            </div>
+            <div class="contacts">
+                <!-- Placeholder for user contacts -->
+            </div>
+        </div>
+        <div class="chat-content">
+            <div class="chat-header">
+                <h3>Chat Room</h3>
+                <button id="voice-call-button">Voice Call</button>
+                <button id="video-call-button">Video Call</button>
+            </div>
+            <div class="chat-window" id="chat-window">
+                <!-- Messages will appear here -->
+            </div>
+            <div class="input-area">
+                <input type="text" id="message-input" placeholder="Type a message">
+                <input type="file" id="file-input">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
